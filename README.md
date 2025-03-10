@@ -76,3 +76,7 @@ Tracks medicine availability, stock levels, and expiry dates.
 - Install **MySQL Server** (or a compatible database system).
 - Use a SQL client like **MySQL Workbench, DBeaver, or phpMyAdmin**.
 - Load the provided SQL schema to set up the database.
+
+##  Authors
+- Navneet Mittal (055026)
+- Rushil Kohli (055027)
