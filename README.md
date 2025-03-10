@@ -8,58 +8,58 @@ Managing hospital data efficiently can be a challenge. This project aims to simp
 
 ### **Tables & What They Do**
 
-#### Patients
+#### 1. Patients
 Stores basic details about patients, including their contact information, blood type, and insurance details.
 
-#### Patient_Addresses
+#### 2. Patient_Addresses
 Keeps track of patients' addresses separately for better organization.
 
-#### Doctors
+#### 3. Doctors
 Contains information about doctors, including their specialization, experience, and contact details.
 
-#### Appointments
+#### 4. Appointments
 Manages patient appointments with doctors, tracking date, time, reason, and status.
 
-#### Medical Records
+#### 5. Medical Records
 Stores records of patient visits, tracking which doctor attended them and when.
 
-#### Diagnosis
+#### 6. Diagnosis
 Links medical records to diagnoses and prescriptions.
 
-#### Billing
+#### 7. Billing
 Handles patient billing, storing details about charges and payment status.
 
-#### Payment Details
+#### 8. Payment Details
 Keeps records of payments made against hospital bills, including payment method and amount.
 
-#### Staff
+#### 9. Staff
 Stores details of hospital staff, including roles, salaries, and shift timings.
 
-#### Rooms
+#### 10. Rooms
 Manages hospital rooms, tracking their availability and occupancy status.
 
-#### Admissions
+#### 11. Admissions
 Tracks patient admissions, linking them to rooms and recording discharge details.
 
-#### Inventory
+#### 12. Inventory
 Maintains stock records of hospital equipment and medical supplies.
 
-#### Suppliers
+#### 13. Suppliers
 Keeps information about suppliers providing medical and pharmaceutical products.
 
-#### Tests
+#### 14. Tests
 Stores available lab tests and their pricing details.
 
-#### Lab Reports
+#### 15. Lab Reports
 Tracks lab test reports, linking them to patients and doctors.
 
-#### Test Results
+#### 16. Test Results
 Stores results of various medical tests conducted on patients.
 
-#### Pharmacy
+#### 17. Pharmacy
 Manages medicine details, including categories and pricing.
 
-#### Stock
+#### 18. Stock
 Tracks medicine availability, stock levels, and expiry dates.
 
 ## How to Use
@@ -72,7 +72,7 @@ Tracks medicine availability, stock levels, and expiry dates.
 3. **Insert some sample data** to start testing.
 4. **Run queries** to fetch and manipulate hospital data.
 
-## 🛠️ Installation Requirements
+##  Installation Requirements
 - Install **MySQL Server** (or a compatible database system).
 - Use a SQL client like **MySQL Workbench, DBeaver, or phpMyAdmin**.
 - Load the provided SQL schema to set up the database.
